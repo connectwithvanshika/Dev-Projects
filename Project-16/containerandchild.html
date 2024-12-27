@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* css code goes here */
+      .flex-container {
+        display: flex;
+        width: 500px;
+        height: auto;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(210, 215, 230);
+      }
+      .flex-child {
+        flex-grow: 1;
+        height: 110px;
+        border: 2px solid rgb(60, 90, 130);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-container" id="container">
+      <div class="flex-child" id="box1">Box 1</div>
+      <div class="flex-child" id="box2">Box 2</div>
+      <div class="flex-child" id="box3">Box 3</div>
+      <div class="flex-child" id="box4">Box 4</div>
+      <div class="flex-child" id="box5">Box 5</div>
+    </div>
+  </body>
+</html>
