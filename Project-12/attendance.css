@@ -1,0 +1,43 @@
+header{
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+}
+#page-title{
+    font-size: 25px;
+    color: #ff6347;
+}
+footer{
+    background-color:#222;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.attendance-name{
+    font-weight: bold;
+}
+.attendance-container{
+    margin: 20px;
+    padding: 20px;
+}
+#attendance-list  li{
+    padding-left: 20px;
+    list-style: square;
+    
+}
+
+#attendance-list li{
+    font-size: 12px;
+    margin: 10px;
+}
+.present{
+    color: green;
+}
+.absent{
+    color:red;
+}
+.attendance:hover{
+    background-color: #f0f0f0;
+    
+}

@@ -1,0 +1,44 @@
+header{
+    background-color: #007bff;
+    color:white;
+    padding: 15px;
+
+}
+
+#page-title{
+    color: #ff6347;
+    font-size: 25px;
+}
+.student-name{
+    font-weight: bold;
+}
+.student-grade{
+    color:#555;
+}
+.student-container{
+    margin: 20px;
+    padding: 20px;
+}
+footer{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+#student-list{
+    list-style: circle;
+    padding-left: 20px;
+    font-size: 12px;
+    margin: 10px;
+}
+
+#student-list li{
+    font-size: 12px;
+    margin: 10px;
+}
+
+
+.student:hover{
+    background-color: #f0f0f0;
+}
+
