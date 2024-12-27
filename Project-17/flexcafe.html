@@ -1,0 +1,149 @@
+<!-- DON'T MAKE ANY CHANGES IN THE HTML MARKUP -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Flex Café</title>
+    <style>
+      /* Put CSS Styles Here */
+      body,
+      h1,
+      h2,
+      p,
+      ul,
+      li,
+      table,
+      th,
+      td {
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        list-style: none;
+      }
+
+      body {
+        line-height: 1.6;
+      }
+
+      .header {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1rem 0;
+      }
+      .nav {
+        background-color: #444;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 0;
+      }
+
+      .nav ul {
+        display: flex;
+      }
+
+      .nav li {
+        margin-right: 20px;
+        cursor: pointer;
+        color: white;
+      }
+
+      .nav li:last-child {
+        margin-right: 0;
+      }
+
+      .main {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+      }
+
+      .content {
+        background-color: #f4f4f4;
+        padding: 1rem;
+        border-radius: 8px;
+        margin-bottom: 2rem;
+      }
+
+      .content:last-child {
+        margin-bottom: 0;
+      }
+
+      table {
+        width: 100%;
+      }
+      th,
+      td {
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: left;
+      }
+      th {
+        background-color: #555;
+        color: white;
+      }
+
+      .footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1rem 0;
+        margin-top: 1rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>Welcome to Flex Café</h1>
+    </div>
+
+    <div class="nav">
+      <ul>
+        <li>Home</li>
+        <li>Menu</li>
+        <li>Gallery</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+
+    <div class="main">
+      <div class="content">
+        <h2>Our Specialties</h2>
+        <p>Enjoy the best coffee and pastries in Webville!</p>
+      </div>
+
+      <div class="content">
+        <h2>Menu</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Espresso</td>
+              <td>$2</td>
+            </tr>
+            <tr>
+              <td>Latte</td>
+              <td>$3</td>
+            </tr>
+            <tr>
+              <td>Croissant</td>
+              <td>$4</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>© 2024 Flex Café. All rights reserved.</p>
+    </div>
+  </body>
+</html>
